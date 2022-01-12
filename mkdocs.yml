@@ -20,9 +20,7 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode 
-  font: false
-  logo: logo-strobe.png
-  favicon: logo-strobe.png    
+  font: false  
   icon:
     repo: fontawesome/brands/github
   features:
@@ -32,8 +30,8 @@ theme:
     - navigation.sections
   plugins:
     - git-revision-date-localized:
-        type: date
-        enable_creation_date: true
+      type: date
+      enable_creation_date: true
 
 markdown_extensions:
   - pymdownx.highlight
