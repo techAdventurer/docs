@@ -29,11 +29,10 @@ theme:
     - navigation.top
     - navigation.expand
     - navigation.sections
-    
+
 plugins:
-  - git-revision-date-localized:
-    type: date
-    enable_creation_date: true
+  - search
+  - git-revision-date-localized
 
 markdown_extensions:
   - pymdownx.highlight
