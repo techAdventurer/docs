@@ -1,4 +1,4 @@
-pip install mkdocs-material
+mkdocs-material 
 jinja2>=2.11.1
 markdown>=3.2
 mkdocs>=1.2.3
