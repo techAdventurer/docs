@@ -3,6 +3,7 @@ site_url: https://docs.strobe.be/it/
 repo_url: https://github.com/techAdventurer/docs
 repo_name: techAdventurer/docs
 edit_uri: edit/main/docs
+
 theme:
   name: material
   palette:
@@ -28,10 +29,11 @@ theme:
     - navigation.top
     - navigation.expand
     - navigation.sections
-  plugins:
-    - git-revision-date-localized:
-      type: date
-      enable_creation_date: true
+    
+plugins:
+  - git-revision-date-localized:
+    type: date
+    enable_creation_date: true
 
 markdown_extensions:
   - pymdownx.highlight
