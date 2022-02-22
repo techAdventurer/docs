@@ -19,3 +19,4 @@ Use the network command:
 ```cisco
 (config)# router ospf {ospf_process_id}
 (config-router)# passive-interface {interface_to_disable}
+```
