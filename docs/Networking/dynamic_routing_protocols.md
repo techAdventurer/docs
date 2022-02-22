@@ -1,4 +1,4 @@
-# Introduction to dynamic routing 
+# Dynamic routing 
 Configuring routes manually can be a working solution in very small topologies, but becomes impractical as soon as it grows in size or in complexity. Dynamic routing algorithms allow routers to communicate with each-other so as to automatically route traffic through the right nodes, and to react automatically in case of a topology change (i.e. node failure or node addition).
 
 Dynamic routing protocols are categorized in two main categories: 
@@ -13,6 +13,7 @@ Within the interior gateway protocols, two types of dynamic routing protocols ca
 OSPF is an IGP and link state routing protocol. It uses [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra's_algorithm) to calculate the shortest path between nodes ([see video](https://www.youtube.com/watch?v=pVfj6mxhdMw&t)).
 
 Steps are as follows:
+
 1. Routers send "Hello" packets with all necessary informations on all their OSPF-enabled interfaces to find compatible neighbours.
 
 To be compatible, both connected routers must follow these requirements:
