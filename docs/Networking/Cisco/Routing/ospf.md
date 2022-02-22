@@ -13,7 +13,7 @@ On each OSPF-enabled interface, type:
 Use the network command:
 
 ```cisco
-(config-if)# network {ip_address}
+(config-if)# network {ip_address} {ospf_wildcard_bits} area {ospf_area_id}
 ```
 #### Define passive interface to avoid broadcasting OSPF updates to external networks:
 ```cisco
