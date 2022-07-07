@@ -113,6 +113,17 @@ Change MOTD
 (config)# banner motd {end_char}
 ```
 
+Add a description to the interfaces (makes maintenance easier)
+```
+(config)# int {interface}
+(config-if)# description {interface_description}
+```
+
+Disable all unused interfaces
+```
+(config-if)# shutdown
+```
+
 Set console password:
 ```
 (config)# line console 0
