@@ -55,7 +55,7 @@ Show routes:
 ```
 
 ### IPv4
-Configure a route via a next hop or interface:
+Configure a route via a next hop ("recursive") or interface:
 ```
 (config)# ip route {network_to_reach} {netmask} {nexthop_ip/interface_name}
 ```
